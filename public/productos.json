@@ -1,0 +1,26 @@
+{
+    "productos": [
+      { "id": 1, "name": "Laptop", "price": 2500, "category": "electronics" },
+      { "id": 2, "name": "Mouse", "price": 50, "category": "electronics" },
+      { "id": 3, "name": "Silla Gamer", "price": 700, "category": "furniture" },
+        { "id": 4, "name": "Teclado Mecánico", "price": 150, "category": "electronics" },
+        { "id": 5, "name": "Monitor 4K", "price": 1200, "category": "electronics" },
+        { "id": 6, "name": "Escritorio de Madera", "price": 800, "category": "furniture" },
+        { "id": 7, "name": "Auriculares Inalámbricos", "price": 300, "category": "electronics" },
+        { "id": 8, "name": "Sofá Cama", "price": 1500, "category": "furniture" },
+        { "id": 9, "name": "Impresora Multifuncional", "price": 400, "category": "electronics" },
+        { "id": 10, "name": "Estantería Moderna", "price": 600, "category": "furniture" },
+        { "id": 11, "name": "Smartphone", "price": 800, "category": "electronics" },
+        { "id": 12, "name": "Cámara Digital", "price": 900, "category": "electronics" },
+        { "id": 13, "name": "Silla de Oficina", "price": 350, "category": "furniture" },
+        { "id": 14, "name": "Proyector Full HD", "price": 1100, "category": "electronics" },
+        { "id": 15, "name": "Mesa de Comedor", "price": 950, "category": "furniture" }
+    ],
+
+    "categorias": [
+        { "id": 1, "name": "electronics" },
+        { "id": 2, "name": "furniture" }
+    ]   
+
+}
+
