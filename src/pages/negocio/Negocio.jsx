@@ -1,4 +1,5 @@
 import React from 'react'
+import './Negocio.css'
 
 const Negocio = () => {
   return (
@@ -7,7 +8,7 @@ const Negocio = () => {
       <p>
         Nuestro modelo de negocio se basa en ofrecer productos de alta calidad y servicios excepcionales a nuestros clientes. Nos enfocamos en la venta de computadoras, laptops y componentes, así como en brindar servicios de reparación y mantenimiento técnico.
       </p>
-      
+
       <p>
         Además, contamos con un equipo de profesionales capacitados para asesorar a nuestros clientes en la elección de los productos que mejor se adapten a sus necesidades. Nuestro objetivo es garantizar la satisfacción del cliente a través de una experiencia de compra fluida y un servicio postventa confiable.
       </p>

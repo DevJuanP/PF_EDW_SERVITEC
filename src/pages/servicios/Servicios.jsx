@@ -1,6 +1,7 @@
 import React from 'react'
+import './Servicios.css'
 
-const Servicios = () => {
+function Servicios() {
   return (
     <div>
       <h1>Nuestros servicios</h1>
