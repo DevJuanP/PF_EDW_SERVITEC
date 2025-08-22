@@ -27,17 +27,7 @@ function App() {
       <main>
         <Outlet/>
       </main>
-     <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-      <hr />
-      <button onClick={() => buttonHandler()}>get products</button>
-      <ul>
-        { productos.length === 0
-        ? <li>No products found</li> 
-        : productos.map((p) => (
-          <li key={p.id}>{p.name} - {p.price}</li>
-        ))}
-      </ul>
+     
       <Footer />
     </>
   )
