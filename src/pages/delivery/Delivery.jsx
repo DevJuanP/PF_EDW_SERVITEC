@@ -3,7 +3,7 @@ import './Delivery.css'
 
 const Delivery = () => {
   return (
-    <div>Delivery</div>
+    <div>holaa push de oscar</div>
   )
 }
 
