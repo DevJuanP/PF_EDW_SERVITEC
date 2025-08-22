@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Negocio.css'
 
 const Negocio = () => {
@@ -37,8 +38,8 @@ const Negocio = () => {
       </div>
 
       <div className="button-container">
-        <a href="https://wa.me/51974293850" target="_blank" style={{ textDecoration: 'none' }}>
-          <button>Escríbeme al whatsapp</button>
+        <a href="https://wa.me/51974293850" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+          <button aria-label="Escríbeme al whatsapp">Escríbeme al whatsapp</button>
         </a>
       </div>
 
@@ -65,7 +66,7 @@ const Negocio = () => {
             <h4>
               📞 Teléfono: +51 987 654 321  <br />
               🕒 Horario: Lunes - Sábado, 9:00 AM - 6:00 PM <br />
-              <a href="./../pages/mapSite.html">MAPA DE SITIO</a> <br />
+              <Link to="/mapSite">MAPA DE SITIO</Link> <br />
             </h4>
           </div>
         </div>
