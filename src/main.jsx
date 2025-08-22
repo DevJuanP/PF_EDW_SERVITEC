@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home/Home.jsx'
 import Sevicios from './pages/servicios/Servicios.jsx'
 import Productos from './pages/productos/Productos.jsx'
-
+import Delivery from './pages/delivery/Delivery.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +16,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} >
           <Route index element={<Home/>} />
           <Route path="/servicios" element={<Sevicios/>} />
+          <Route path="/delivery" element={<Delivery/>} />
           <Route path="/productos/:categoria" element={<Productos/>} />
         </Route>
       </Routes>    
