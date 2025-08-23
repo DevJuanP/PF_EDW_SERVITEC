@@ -12,6 +12,7 @@ const Productos = () => {
   console.log("param: ",categoria);
   
   useEffect(() => {
+      console.log("montando componente...");
     getProducts().then(data => {
       console.log(data);
       let p = getByCategory(categoria, data)
@@ -19,8 +20,9 @@ const Productos = () => {
     })
     return () => {
       console.log("desmontando componente...");
+      setProductos([])
     }
-  }, [])
+  }, [categoria])
 
   return (
     <>
