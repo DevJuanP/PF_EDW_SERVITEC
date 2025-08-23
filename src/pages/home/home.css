@@ -1,5 +1,9 @@
 .banner{
-    width: 100uw;
+    width: 100vw;    /* 100% del ancho de la ventana */
+  height: auto;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%)
    
     
 }
