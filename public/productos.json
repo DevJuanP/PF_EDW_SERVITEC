@@ -1,20 +1,108 @@
 {
     "productos": [
-      { "id": 1, "name": "Laptop", "price": 2500, "category": "electronics" },
-      { "id": 2, "name": "Mouse", "price": 50, "category": "electronics" },
-      { "id": 3, "name": "Silla Gamer", "price": 700, "category": "furniture" },
-        { "id": 4, "name": "Teclado Mecánico", "price": 150, "category": "electronics" },
-        { "id": 5, "name": "Monitor 4K", "price": 1200, "category": "electronics" },
-        { "id": 6, "name": "Escritorio de Madera", "price": 800, "category": "furniture" },
-        { "id": 7, "name": "Auriculares Inalámbricos", "price": 300, "category": "electronics" },
-        { "id": 8, "name": "Sofá Cama", "price": 1500, "category": "furniture" },
-        { "id": 9, "name": "Impresora Multifuncional", "price": 400, "category": "electronics" },
-        { "id": 10, "name": "Estantería Moderna", "price": 600, "category": "furniture" },
-        { "id": 11, "name": "Smartphone", "price": 800, "category": "electronics" },
-        { "id": 12, "name": "Cámara Digital", "price": 900, "category": "electronics" },
-        { "id": 13, "name": "Silla de Oficina", "price": 350, "category": "furniture" },
-        { "id": 14, "name": "Proyector Full HD", "price": 1100, "category": "electronics" },
-        { "id": 15, "name": "Mesa de Comedor", "price": 950, "category": "furniture" }
+        {
+            "id": 1,
+            "name": "Alienware m16 R2",
+            "price": 1800,
+            "description": [
+                "Procesador: Intel Core Ultra 7 155H.",
+                "Tarjeta Gráfica: Nvidia GeForce RTX 4070 Laptop GPU.",
+                "Pantalla: 16 pulgadas, QHD+ (2560 x 1600), 240 Hz, G-Sync.",
+                "Memoria RAM: 16 GB.",
+                "Almacenamiento: SSD de 1 TB."
+            ],
+            "img": "https://m.media-amazon.com/images/I/71onZNUqUEL._AC_UY218_.jpg",
+            "categoria": {
+                "name": "laptops",
+                "Subcategoria": "gaming"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Asus ROG Strix Scar 18",
+            "price": 3300,
+            "description": [
+            "Procesador: Intel Core i9-14900HX.",
+            "Tarjeta Gráfica: NVIDIA RTX 5090.",
+            "Pantalla: 18″ Mini-LED, 240 Hz.",
+            "RAM: 32 GB DDR5.",
+            "Almacenamiento: SSD NVMe."
+            ],
+            "img": "https://m.media-amazon.com/images/I/71shKXvCIEL._AC_UY218_.jpg",
+            "categoria": {
+            "name": "laptops",
+            "Subcategoria": "gaming"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Razer Blade 16",
+            "price": 3500,
+            "description": [
+            "Procesador: AMD Ryzen AI 9 HX 370.",
+            "Tarjeta Gráfica: NVIDIA RTX 5090.",
+            "Pantalla: 16″ OLED, 240 Hz.",
+            "RAM: 32 GB LPDDR5x.",
+            "Almacenamiento: SSD NVMe."
+            ],
+            "img": "https://m.media-amazon.com/images/I/71WH7jtyWpL._AC_UY218_.jpg",
+            "categoria": {
+            "name": "laptops",
+            "Subcategoria": "gaming"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Lenovo Legion Pro 7i Gen 9",
+            "price": 2299,
+            "description": [
+            "Procesador: Intel Core i9-14900HX.",
+            "Tarjeta Gráfica: RTX 5080.",
+            "Pantalla: 16″ QHD+, 240 Hz.",
+            "RAM: 32 GB DDR5.",
+            "Almacenamiento: SSD de 1 TB."
+            ],
+            "img": "https://m.media-amazon.com/images/I/71KE9aKFg+L._AC_UY218_.jpg",
+            "categoria": {
+            "name": "laptops",
+            "Subcategoria": "gaming"
+            }
+        },
+        {
+            "id": 5,
+            "name": "MSI Titan 18 HX AI",
+            "price": 5799,
+            "description": [
+            "Procesador: Intel Core Ultra 9 285HX.",
+            "Tarjeta Gráfica: RTX 5090.",
+            "Pantalla: 18″ 4K Mini-LED, 120 Hz.",
+            "RAM: 96 GB DDR5.",
+            "Almacenamiento: SSD varios con RAID-5."
+            ],
+            "img": "https://m.media-amazon.com/images/I/71MMe+kOxSL._AC_UY218_.jpg",
+            "categoria": {
+            "name": "laptops",
+            "Subcategoria": "gaming"
+            }
+        },
+        {
+            "id": 6,
+            "name": "MSI Titan 18 HX AI",
+            "price": 5799,
+            "description": [
+            "Procesador: Intel Core Ultra 9 285HX.",
+            "Tarjeta Gráfica: RTX 5090.",
+            "Pantalla: 18″ 4K Mini-LED, 120 Hz.",
+            "RAM: 96 GB DDR5.",
+            "Almacenamiento: SSD varios con RAID-5."
+            ],
+            "img": "https://m.media-amazon.com/images/I/71MMe+kOxSL._AC_UY218_.jpg",
+            "categoria": {
+            "name": "laptops",
+            "Subcategoria": "otras"
+            }
+        }
+
     ],
 
     "categorias": [

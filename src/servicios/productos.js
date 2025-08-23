@@ -5,18 +5,21 @@ export  async function getProducts() {
   return data.productos;
 }
 
-// Filtrar por categoría
-export async function getProductsByCategory(category) {
-  const products = await getProducts();
-  return products.filter(p => p.category === category);
-}
+export const getByCategory = (category, productos) =>{
+  return productos.filter(p => {
+    let cat = p.categoria.name+"_"+p.categoria.Subcategoria
+    console.log("cat: ",cat);
+    return cat.trim() == category.trim();
+  })
+} 
 
-// Buscar por ID
-export async function getProductById(id) {
-  const products = await getProducts();
-  return products.find(p => p.id === id);
-}
-
-export const hola = () => {
-  return "Hola desde productos.js";
+export const getTitleCategory = (category) =>{
+  switch (category) {
+    case "laptops_gaming":
+      return "LAPTOPS GAMER";
+    case "laptops_otras":
+      return "OTRAS LAPTOPS";
+    default:
+      return "CATEGORÍA NO ENCONTRADA";
+  }
 }
