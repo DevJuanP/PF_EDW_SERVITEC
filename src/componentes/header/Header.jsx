@@ -1,14 +1,17 @@
 import React from 'react'
 import './header.css'
+import { Link } from 'react-router-dom'
 
 const header = () => {
   return (
-    <div>
+    <>
        <header>
       <div className="header-top">
         <div className="img-container">
+          <Link to="/">
+            <img src="https://raw.githubusercontent.com/DevJuanP/proyecto_CIBERTEC/refs/heads/main/img/logo.webp" alt="logo" />
+          </Link>
           <a href="../index.html">
-            <img src="../img/logo.webp" alt="logo" />
           </a>
         </div>
       </div>
@@ -47,20 +50,40 @@ const header = () => {
             </li>
 
             <h2>•</h2>
-            <li className="main-items"><a href="./pages/nuestros_servicios.html">NUESTROS SERVICIOS</a></li>
+            <li className="main-items">
+              <Link to="/servicios">NUESTROS SERVICIOS</Link>
+            </li>
+
             <h2>•</h2>
-            <li className="main-items"><a href="./pages/nuestros_locales.html">NUESTROS LOCALES</a></li>
+
+            <li className="main-items">
+              <Link to="/locales">NUESTROS LOCALES</Link>
+            </li>
+
             <h2>•</h2>
-            <li className="main-items"><a href="./pages/pagos.html">MODALIDAD DE PAGO</a></li>
+
+            <li className="main-items">
+              <Link to="/pago">MODALIDAD DE PAGO</Link>
+            </li>
+
             <h2>•</h2>
-            <li className="main-items"><a href="./pages/delivery.html">DELÍVERY</a></li>
+
+            <li className="main-items">
+              <Link to="/delivery">DELÍVERY</Link>
+            </li>
+
             <h2>•</h2>
-            <li className="main-items"><a href="./pages/modelo.html">MODELO DE NEGOCIO</a></li>
+
+            <li className="main-items">
+              <Link to="/negocio">MODELO DE NEOCIO</Link>
+            </li>
+
           </ul>
+      
         </div>
       </nav>
     </header>
-    </div>
+    </>
   )
 }
 
