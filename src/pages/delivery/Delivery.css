@@ -22,11 +22,11 @@ main hr{
     font-size: 30px;
     font-weight: 600;
 }
-.button-container{
+.button-container1{
     display: flex;
     justify-content: end;
 }
-.button-container button{
+.button-container1 button{
     height: 42px;
     width: 200px;
     border: none;
@@ -36,7 +36,7 @@ main hr{
     text-align: center;
     border-radius: 10px;
 }
-.button-container button:hover{
+.button-container1 button:hover{
     background-color: #ffc832;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }

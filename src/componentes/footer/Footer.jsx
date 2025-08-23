@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import './footer.css'
 
 const Footer = () => {
@@ -31,7 +33,7 @@ const Footer = () => {
           <h4>
             📞 Teléfono: +51 987 654 321 <br />
             🕒 Horario: Lunes - Sábado, 9:00 AM - 6:00 PM <br />
-            <a href="./../pages/mapSite.html">MAPA DE SITIO</a> <br />
+            <Link to="/mapSite">MAPA DE SITIO</Link> <br />
           </h4>
         </div>
       </div>

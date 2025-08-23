@@ -11,6 +11,7 @@ import Delivery from './pages/delivery/Delivery.jsx'
 import Locales from './pages/Locales/Locales.jsx'
 import Negocio from './pages/negocio/Negocio.jsx'
 import Pago from './pages/pago/Pago.jsx'
+import MapSite from  './pages/mapSite/MapSite.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -24,6 +25,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/pago" element={<Pago/>} />
           <Route path="/servicios" element={<Sevicios/>} />
           <Route path="/productos/:categoria" element={<Productos/>} />
+          <Route path="/mapsite" element={<MapSite/>} />
         </Route>
       </Routes>    
     </BrowserRouter>
