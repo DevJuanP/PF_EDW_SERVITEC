@@ -46,4 +46,4 @@ const Negocio = () => {
   )
 }
 
-export default
+export default Negocio
