@@ -810,7 +810,7 @@
     "Soporte para DDR4 y DDR5",
     "Desbloqueado para overclocking"
   ],
-  "img": "https://m.media-amazon.com/images/I/51aF7ewz7tL._AC_UL320_.jpg",
+  "img": "https://m.media-amazon.com/images/I/513c8GtpBBL._AC_UL320_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cpus"
@@ -827,7 +827,7 @@
     "Soporta DDR5 y PCIe 5.0",
     "Optimizado para gaming de alto rendimiento"
   ],
-  "img": "/img/cpus/cpu4.jpg",
+  "img": "https://m.media-amazon.com/images/I/51W1KKnnbSL._AC_UL320_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cpus"
@@ -844,7 +844,7 @@
     "Soporte DDR5 y PCIe 5.0",
     "Diseñado para entusiastas y creadores"
   ],
-  "img": "/img/cpus/cpu5.jpg",
+  "img": "https://m.media-amazon.com/images/I/51CsbchCa-L._AC_UL320_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cpus"
@@ -861,7 +861,7 @@
       "Diseño con tapa protectora",
       "Compatible con Windows, Mac y Linux"
     ],
-    "img": "https://example.com/memorias/kingston_exodia_128gb.jpg",
+    "img": "https://m.media-amazon.com/images/I/61PUsY6E8UL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "memorias"
@@ -878,7 +878,7 @@
       "Ideal para smartphones y cámaras",
       "Incluye adaptador SD"
     ],
-    "img": "https://example.com/memorias/sandisk_ultra_256gb.jpg",
+    "img": "https://m.media-amazon.com/images/I/71nZXIVl6CL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "memorias"
@@ -895,7 +895,7 @@
       "Resistente al agua, temperatura y rayos X",
       "Incluye adaptador SD"
     ],
-    "img": "https://example.com/memorias/samsung_evo_512gb.jpg",
+    "img": "https://m.media-amazon.com/images/I/610Z9eH6PfL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "memorias"
@@ -912,7 +912,7 @@
       "Carcasa de aluminio resistente",
       "Plug and Play sin software adicional"
     ],
-    "img": "https://example.com/memorias/corsair_voyager_gtx_1tb.jpg",
+    "img": "https://m.media-amazon.com/images/I/71nP2JXSHuL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "memorias"
@@ -929,7 +929,7 @@
       "Diseñada para cámaras 4K y 8K",
       "Alta durabilidad y resistencia"
     ],
-    "img": "https://example.com/memorias/lexar_cfexpress_128gb.jpg",
+    "img": "https://m.media-amazon.com/images/I/71bbfrXfIXL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "memorias"
@@ -946,7 +946,7 @@
       "Diseño compacto y ligero",
       "Compatible con Logitech G HUB"
     ],
-    "img": "https://example.com/otros/logitech_g203.jpg",
+    "img": "https://m.media-amazon.com/images/I/61oE1NouXuL._AC_UL320_.jpgg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "otros"
@@ -963,7 +963,7 @@
       "Controles multimedia dedicados",
       "Reposamuñecas desmontable"
     ],
-    "img": "https://example.com/otros/corsair_k55.jpg",
+    "img": "https://m.media-amazon.com/images/I/81raLP0s2oL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "otros"
@@ -971,16 +971,16 @@
   },
   {
     "id": 58,
-    "name": "EVGA 600W 80 Plus White",
+    "name": "EVGA 650W 80 Plus bronze",
     "price": 59.99,
     "description": [
-      "Fuente de poder de 600W",
-      "Certificación 80 Plus White",
+      "Fuente de poder de 650W",
+      "Certificación 80 Plus bronze",
       "Protecciones OVP, UVP, OCP y SCP",
       "Ventilador silencioso de 120mm",
       "Compatible con sistemas ATX"
     ],
-    "img": "https://example.com/otros/evga_600w.jpg",
+    "img": "https://m.media-amazon.com/images/I/51KCB0x5XfL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "otros"
@@ -997,7 +997,7 @@
       "Corrección automática de iluminación",
       "Compatibilidad con Windows, Mac y Linux"
     ],
-    "img": "https://example.com/otros/logitech_c920.jpg",
+    "img": "https://m.media-amazon.com/images/I/71eGb1FcyiL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "otros"
@@ -1014,7 +1014,7 @@
       "Dimensiones medianas 320x270 mm",
       "Diseño duradero y lavable"
     ],
-    "img": "https://example.com/otros/steelseries_qck.jpg",
+    "img": "https://m.media-amazon.com/images/I/51qtafoaixL._AC_UL320_.jpg",
     "categoria": {
       "name": "componentes",
       "Subcategoria": "otros"
