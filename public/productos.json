@@ -96,7 +96,7 @@
                 "Almacenamiento: SSD de 512 GB.",
                 "Batería de larga duración."
             ],
-            "img": "https://m.media-amazon.com/images/I/71kQElU7ZFL._AC_UY218_.jpg",
+            "img": "https://m.media-amazon.com/images/I/71NJ4yGVDxL._AC_UY218_.jpg",
             "categoria": {
                 "name": "laptops",
                 "Subcategoria": "otras"
@@ -113,7 +113,7 @@
                 "Almacenamiento: SSD de 512 GB.",
                 "Gráficos integrados AMD Radeon."
             ],
-            "img": "https://m.media-amazon.com/images/I/81m1s4wIPML._AC_UY218_.jpg",
+            "img": "https://m.media-amazon.com/images/I/71aTEZOda0L._AC_UY218_.jpg",
             "categoria": {
                 "name": "laptops",
                 "Subcategoria": "otras"
@@ -130,7 +130,7 @@
                 "Almacenamiento: SSD de 512 GB.",
                 "Teclado retroiluminado."
             ],
-            "img": "https://m.media-amazon.com/images/I/71mZ6SFnZyL._AC_UY218_.jpg",
+            "img": "https://m.media-amazon.com/images/I/71kmViEHobL._AC_UY218_.jpg",
             "categoria": {
                 "name": "laptops",
                 "Subcategoria": "otras"
@@ -147,7 +147,7 @@
                 "Almacenamiento: SSD de 256 GB.",
                 "Ideal para estudiantes y oficina."
             ],
-            "img": "https://m.media-amazon.com/images/I/71bErtEZZtL._AC_UY218_.jpg",
+            "img": "https://m.media-amazon.com/images/I/61eFMUYS+HL._AC_UY218_.jpg",
             "categoria": {
                 "name": "laptops",
                 "Subcategoria": "otras"
@@ -181,7 +181,7 @@
                 "SSD de 512 GB NVMe.",
                 "Gabinete ATX con panel lateral de vidrio templado."
             ],
-            "img": "https://m.media-amazon.com/images/I/81oJp8gWQpL._AC_SL1500_.jpg",
+            "img": "https://m.media-amazon.com/images/I/81EoVwSOLHL._AC_UY218_.jpg",
             "categoria": {
                 "name": "pc",
                 "Subcategoria": "combos"
@@ -198,7 +198,7 @@
                 "SSD de 1 TB NVMe.",
                 "Fuente de poder 650W certificada 80 Plus Bronze."
             ],
-            "img": "https://m.media-amazon.com/images/I/81mKn6mKDoL._AC_SL1500_.jpg",
+            "img": "https://m.media-amazon.com/images/I/81pEuqNbRcL._AC_UY218_.jpg",
             "categoria": {
                 "name": "pc",
                 "Subcategoria": "combos"
@@ -215,7 +215,7 @@
                 "SSD de 1 TB NVMe Gen4.",
                 "Refrigeración líquida de 240 mm."
             ],
-            "img": "https://m.media-amazon.com/images/I/81WbGQqXtQL._AC_SL1500_.jpg",
+            "img": "https://m.media-amazon.com/images/I/716wDn2WNKL._AC_UY218_.jpg",
             "categoria": {
                 "name": "pc",
                 "Subcategoria": "combos"
@@ -232,7 +232,7 @@
                 "SSD de 1 TB NVMe Gen4.",
                 "Gabinete mid-tower con RGB."
             ],
-            "img": "https://m.media-amazon.com/images/I/81wNnMpnWcL._AC_SL1500_.jpg",
+            "img": "https://m.media-amazon.com/images/I/71LUB+bXzTL._AC_UY218_.jpg",
             "categoria": {
                 "name": "pc",
                 "Subcategoria": "combos"
@@ -249,7 +249,7 @@
                 "SSD de 2 TB NVMe Gen4.",
                 "Fuente de poder 750W certificada 80 Plus Gold."
             ],
-            "img": "https://m.media-amazon.com/images/I/81euCISdrZL._AC_SL1500_.jpg",
+            "img": "https://m.media-amazon.com/images/I/71JzcUE-kTL._AC_UY218_.jpg",
             "categoria": {
                 "name": "pc",
                 "Subcategoria": "combos"
@@ -266,7 +266,7 @@
       "Tarjeta gráfica NVIDIA RTX A4000",
       "Chasis profesional de 480 x 210 x 450 mm"
     ],
-    "img": "pc_profesional_1.jpg",
+    "img": "https://m.media-amazon.com/images/I/61TNgEm61OL._AC_UY218_.jpg",
     "categoria": {
       "name": "pc",
       "Subcategoria": "profesional"
@@ -283,7 +283,7 @@
       "Gráficos NVIDIA RTX A5000",
       "Fuente certificada Platinum 1000W"
     ],
-    "img": "pc_profesional_2.jpg",
+    "img": "https://m.media-amazon.com/images/I/71nzQJEHXDL._AC_UY218_.jpg",
     "categoria": {
       "name": "pc",
       "Subcategoria": "profesional"
@@ -300,7 +300,7 @@
       "NVIDIA RTX 4070 Ti 12 GB",
       "Gabinete robusto de torre con refrigeración líquida"
     ],
-    "img": "pc_profesional_3.jpg",
+    "img": "https://m.media-amazon.com/images/I/71Fhr3YH4KL._AC_UY218_.jpg",
     "categoria": {
       "name": "pc",
       "Subcategoria": "profesional"
@@ -317,7 +317,7 @@
       "GPU NVIDIA RTX A4500",
       "Diseño con refrigeración silenciosa"
     ],
-    "img": "pc_profesional_4.jpg",
+    "img": "https://m.media-amazon.com/images/I/51K15PMSinL._AC_UY218_.jpg",
     "categoria": {
       "name": "pc",
       "Subcategoria": "profesional"
@@ -334,7 +334,7 @@
       "NVIDIA RTX A6000 48 GB",
       "Gabinete optimizado para flujo de aire"
     ],
-    "img": "pc_profesional_5.jpg",
+    "img": "https://m.media-amazon.com/images/I/51eUCP9KeML._AC_UY218_.jpg",
     "categoria": {
       "name": "pc",
       "Subcategoria": "profesional"
@@ -352,7 +352,7 @@
     "Gráficos integrados Intel UHD",
     "Gabinete compacto 350 x 180 x 400mm"
   ],
-  "img": "pc_oficina_1.jpg",
+  "img": "https://m.media-amazon.com/images/I/71BBaZSgS4L._AC_UY218_.jpg",
   "categoria": {
     "name": "pc",
     "Subcategoria": "oficinas"
@@ -369,7 +369,7 @@
     "Gráficos integrados Vega 7",
     "Gabinete micro-ATX silencioso"
   ],
-  "img": "pc_oficina_2.jpg",
+  "img": "https://m.media-amazon.com/images/I/61LtrQX1E4L._AC_UY218_.jpg",
   "categoria": {
     "name": "pc",
     "Subcategoria": "oficinas"
@@ -386,7 +386,7 @@
     "Gráficos integrados Intel UHD 730",
     "Fuente 500W certificada 80+"
   ],
-  "img": "pc_oficina_3.jpg",
+  "img": "https://m.media-amazon.com/images/I/81rApDu5lXL._AC_UY218_.jpg",
   "categoria": {
     "name": "pc",
     "Subcategoria": "oficinas"
@@ -403,7 +403,7 @@
     "Gráficos integrados Radeon Vega 7",
     "Gabinete compacto con ventilación optimizada"
   ],
-  "img": "pc_oficina_4.jpg",
+  "img": "https://m.media-amazon.com/images/I/711H3GLWD+L._AC_UY218_.jpg",
   "categoria": {
     "name": "pc",
     "Subcategoria": "oficinas"
@@ -420,7 +420,7 @@
     "Gráficos integrados Intel UHD 770",
     "Gabinete elegante con diseño profesional"
   ],
-  "img": "pc_oficina_5.jpg",
+  "img": "https://m.media-amazon.com/images/I/71JQ2SxtKyL._AC_UY218_.jpg",
   "categoria": {
     "name": "pc",
     "Subcategoria": "oficinas"
@@ -437,7 +437,7 @@
     "Tecnología FreeSync",
     "Conexiones HDMI y DisplayPort"
   ],
-  "img": "/img/monitores/monitor1.jpg",
+  "img": "https://m.media-amazon.com/images/I/71V-+tAJfdL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "monitores"
@@ -454,7 +454,7 @@
     "Compatibilidad con G-Sync",
     "Conectividad HDMI, DisplayPort y USB"
   ],
-  "img": "/img/monitores/monitor2.jpg",
+  "img": "https://m.media-amazon.com/images/I/71112BEzdCL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "monitores"
@@ -471,7 +471,7 @@
     "Tecnología Flicker-Free",
     "Entradas HDMI y VGA"
   ],
-  "img": "/img/monitores/monitor3.jpg",
+  "img": "https://m.media-amazon.com/images/I/71RozKNn4mL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "monitores"
@@ -488,7 +488,7 @@
     "Diseño sin bordes en 3 lados",
     "Conectividad HDMI 2.0 y DisplayPort"
   ],
-  "img": "/img/monitores/monitor4.jpg",
+  "img": "https://m.media-amazon.com/images/I/81tizzS173L._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "monitores"
@@ -505,7 +505,7 @@
     "Soporte ajustable en altura",
     "Puertos HDMI, DisplayPort y USB-C"
   ],
-  "img": "/img/monitores/monitor5.jpg",
+  "img": "https://m.media-amazon.com/images/I/71sPOWyMwVL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "monitores"
@@ -522,7 +522,7 @@
     "Espacio para tarjetas gráficas largas",
     "Gestión de cables optimizada"
   ],
-  "img": "/img/cases/case1.jpg",
+  "img": "https://m.media-amazon.com/images/I/91f1zzxQH8L._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cases"
@@ -539,7 +539,7 @@
     "Incluye 2 ventiladores silenciosos",
     "Compatible con fuentes ATX"
   ],
-  "img": "/img/cases/case2.jpg",
+  "img": "https://m.media-amazon.com/images/I/71KDNCOQrkL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cases"
@@ -556,7 +556,7 @@
     "Panel lateral de vidrio templado",
     "Filtros de polvo desmontables"
   ],
-  "img": "/img/cases/case3.jpg",
+  "img": "https://m.media-amazon.com/images/I/81Jm7SYdf3L._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cases"
@@ -573,7 +573,7 @@
     "Incluye ventilador trasero de 120mm",
     "Optimizado para PCs de oficina"
   ],
-  "img": "/img/cases/case4.jpg",
+  "img": "https://m.media-amazon.com/images/I/81pP1UXyyeL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cases"
@@ -590,7 +590,7 @@
     "Soporte para radiadores de 360mm",
     "Gestión interna de cables mejorada"
   ],
-  "img": "/img/cases/case5.jpg",
+  "img": "https://m.media-amazon.com/images/I/81SGqDs1HTL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cases"
@@ -607,7 +607,7 @@
     "PCIe 5.0 para GPU de alto rendimiento",
     "Conectividad WiFi 6E integrada"
   ],
-  "img": "/img/mb/mb1.jpg",
+  "img": "https://m.media-amazon.com/images/I/81qkkPe4pBL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "mb"
@@ -624,7 +624,7 @@
     "Hasta 128GB DDR4 a 4733MHz",
     "Conectores M.2 con disipador incluido"
   ],
-  "img": "/img/mb/mb2.jpg",
+  "img": "https://m.media-amazon.com/images/I/51ZUnFrLVVL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "mb"
@@ -641,7 +641,7 @@
     "Soporte PCIe 5.0 para GPU y almacenamiento",
     "VRM reforzado para overclocking estable"
   ],
-  "img": "/img/mb/mb3.jpg",
+  "img": "https://m.media-amazon.com/images/I/81ohPDfik0L._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "mb"
@@ -658,7 +658,7 @@
     "Un puerto PCIe 4.0 x16 para GPU",
     "WiFi 6 y Bluetooth integrados"
   ],
-  "img": "/img/mb/mb4.jpg",
+  "img": "https://m.media-amazon.com/images/I/81lh6NT6T6L._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "mb"
@@ -675,7 +675,7 @@
     "Soporte para múltiples GPU",
     "Iluminación RGB personalizable"
   ],
-  "img": "/img/mb/mb5.jpg",
+  "img": "https://m.media-amazon.com/images/I/81xl402VUuL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "mb"
@@ -692,7 +692,7 @@
     "Diseño de perfil bajo para mejor disipación",
     "XMP 2.0 para overclocking automático"
   ],
-  "img": "/img/ram/ram1.jpg",
+  "img": "https://m.media-amazon.com/images/I/61wCOVcyvFL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "ram"
@@ -709,7 +709,7 @@
     "Disipador negro de bajo perfil",
     "Optimizado para multitarea y gaming extremo"
   ],
-  "img": "/img/ram/ram2.jpg",
+  "img": "https://m.media-amazon.com/images/I/717cPftxQgL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "ram"
@@ -726,7 +726,7 @@
     "Disipador de aluminio premium",
     "Compatibilidad con Intel XMP 2.0"
   ],
-  "img": "/img/ram/ram3.jpg",
+  "img": "https://m.media-amazon.com/images/I/61l4EStxhnL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "ram"
@@ -743,7 +743,7 @@
     "Compatibilidad universal con placas DDR4",
     "Ideal para equipos de oficina y gaming ligero"
   ],
-  "img": "/img/ram/ram4.jpg",
+  "img": "https://m.media-amazon.com/images/I/61FsaYbk3UL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "ram"
@@ -760,7 +760,7 @@
     "Disipador de aluminio de diseño gamer",
     "Compatibilidad con plataformas Intel y AMD modernas"
   ],
-  "img": "/img/ram/ram5.jpg",
+  "img": "https://m.media-amazon.com/images/I/81ov4cFmdaL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "ram"
@@ -776,7 +776,7 @@
     "Tecnología Intel Turbo Boost 2.0",
     "Ideal para gaming y productividad"
   ],
-  "img": "/img/cpus/cpu1.jpg",
+  "img": "https://m.media-amazon.com/images/I/51EwtPjHkIL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cpus"
@@ -793,7 +793,7 @@
     "TDP de 65W con gran eficiencia",
     "Incluye cooler Wraith Stealth"
   ],
-  "img": "/img/cpus/cpu2.jpg",
+  "img": "https://m.media-amazon.com/images/I/51ld6RR8IrL._AC_UY218_.jpg",
   "categoria": {
     "name": "componentes",
     "Subcategoria": "cpus"
@@ -1031,4 +1031,3 @@
     ]   
 
 }
-
