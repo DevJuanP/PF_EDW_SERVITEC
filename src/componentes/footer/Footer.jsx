@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './footer.css'
 
-const Footer = () => {
+const Footer = () => {  
   return (
     <div>
        <footer>
@@ -41,7 +41,9 @@ const Footer = () => {
       <div className="footer-bottom">
         <h3>SERVITEC</h3>
       </div>
+      
     </footer>
+   
     </div>
   )
 }
