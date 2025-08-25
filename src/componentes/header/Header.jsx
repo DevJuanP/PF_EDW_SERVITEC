@@ -101,7 +101,7 @@ const header = () => {
             <h2>•</h2>
 
             <li className="main-items">
-              <Link to="/negocio">MODELO DE NEOCIO</Link>
+              <Link to="/negocio">MODELO DE NEGOCIO</Link>
             </li>
 
           </ul>
