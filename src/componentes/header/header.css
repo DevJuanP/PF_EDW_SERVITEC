@@ -1,10 +1,9 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #FFF3E0;
-    min-height: 100vh;
+header{
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    top: 0;
+    z-index: 10;
 }
-
 .header-top{
     display: flex;
     justify-content: center;
@@ -32,7 +31,9 @@ ul{
 }
 .menu-container{
     height: 100%;
-    width: 1200px;
+    width: 100%;        /* ocupa siempre todo el ancho disponible */
+    max-width: 1200px;  /* no crecer más de 1200px */
+    margin: 0 auto;     /* centrado */
     display: flex;
     align-items: center;
 }

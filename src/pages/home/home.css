@@ -1,17 +1,4 @@
-.banner{
-    width: 100vw;    /* 100% del ancho de la ventana */
-  height: auto;
-  display: block;
-  margin-left: 50%;
-  transform: translateX(-50%)
-   
-    
-}
-.banner img{
-    max-height: 400px;
-    width: 100%;
-    object-fit: cover;
-}
+
 
 .containerBanner{
     border: black solid 1px;

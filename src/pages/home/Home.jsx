@@ -2,10 +2,8 @@ import React from 'react'
 import './home.css'
 const Home = () => {
   return (
-    <div>
-      <div className="banner">
-        <img src="https://raw.githubusercontent.com/DevJuanP/proyecto_CIBERTEC/refs/heads/main/img/bigBANNER.png" alt="Banner principal" />
-      </div>
+    <>
+      
       <br />
       <br />
       <hr className="divider" />
@@ -65,7 +63,7 @@ const Home = () => {
           </p>
         </div>
       </div>    
-    </div>
+    </>
   )
 }
 
