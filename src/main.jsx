@@ -12,6 +12,7 @@ import Locales from './pages/Locales/Locales.jsx'
 import Negocio from './pages/negocio/Negocio.jsx'
 import Pago from './pages/pago/Pago.jsx'
 import MapSite from  './pages/mapSite/MapSite.jsx'
+import FormularioCitas from './pages/citas/FormularioCitas.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/pago" element={<Pago/>} />
           <Route path="/servicios" element={<Sevicios/>} />
           <Route path="/productos/:categoria" element={<Productos/>} />
+          <Route path="/citas" element={<FormularioCitas/>} />
           <Route path="/mapsite" element={<MapSite/>} />
         </Route>
       </Routes>    

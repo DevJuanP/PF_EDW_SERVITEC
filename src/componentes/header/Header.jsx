@@ -104,6 +104,12 @@ const header = () => {
               <Link to="/negocio">MODELO DE NEGOCIO</Link>
             </li>
 
+            <h2>•</h2>
+
+            <li className="main-items">
+              <Link to="/citas">CITAS</Link>
+            </li>
+
           </ul>
       
         </div>

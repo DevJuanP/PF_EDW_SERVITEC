@@ -1,0 +1,53 @@
+/* Todo aislado dentro de contenedorcc para evitar conflictos */
+
+.contenedorcc {
+  background-color: #eee0d1; /* marrón elegante */
+  padding: 40px;
+  border-radius: 16px;
+  width: 400px;
+  margin: 60px auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-cc {
+   color: #000000; 
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.formulario-cc {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formulario-cc input,
+.formulario-cc select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.formulario-cc input:focus,
+.formulario-cc select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.formulario-cc button {
+    background-color: #8B1E1E; 
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.formulario-cc button:hover {
+ background-color: #6E1616; 
+}
