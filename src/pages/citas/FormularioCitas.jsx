@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./citas.css";
 import { asesores } from "./asesores";
+import { citasData } from "./citasData";
 import jsPDF from "jspdf";
 
 const FormularioCitas = () => {
@@ -20,13 +21,11 @@ const FormularioCitas = () => {
     descripcion: ""
   });
 
-  const [citas, setCitas] = useState([]);
+  const [citas, setCitas] = useState(citasData);
 
   useEffect(() => {
-    fetch("/api/citas")
-      .then((res) => res.json())
-      .then((data) => setCitas(data))
-      .catch((err) => console.error("Error cargando citas", err));
+    // inicializar desde arreglo predefinido
+    setCitas(citasData);
   }, []);
 
   const handleChange = (e) => {
@@ -36,34 +35,24 @@ const FormularioCitas = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const nuevo = { ...cita };
-    fetch("/api/citas", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(nuevo)
-    })
-      .then((res) => res.json())
-      .then((saved) => {
-        setCitas((prev) => [...prev, saved]);
-        alert("Cita registrada correctamente ");
-        setCita({
-          nombreCliente: "",
-          nroCliente: "",
-          correo: "",
-          dni: "",
-          telefono: "",
-          asesorId: "",
-          tipoCita: "",
-          fechaSolicitud: today,
-          fechaAtencion: "",
-          estado: "Pendiente",
-          descripcion: ""
-        });
-      })
-      .catch((err) => {
-        console.error("Error guardando cita", err);
-        alert("No se pudo registrar la cita");
-      });
+    const nuevo = { ...cita, id: Date.now() };
+    // si hubiera backend, aquí haríamos POST; por ahora añadimos directamente
+    setCitas((prev) => [...prev, nuevo]);
+    citasData.push(nuevo); // mantener sincronizado el arreglo precargado
+    alert("Cita registrada correctamente ");
+    setCita({
+      nombreCliente: "",
+      nroCliente: "",
+      correo: "",
+      dni: "",
+      telefono: "",
+      asesorId: "",
+      tipoCita: "",
+      fechaSolicitud: today,
+      fechaAtencion: "",
+      estado: "Pendiente",
+      descripcion: ""
+    });
   };
 
   // formatea YYYY-MM-DD or Date into dd/mm/yyyy
@@ -162,11 +151,14 @@ const FormularioCitas = () => {
                     <td>{c.nroCliente}</td>
                     <td>{c.nombreCliente}</td>
                     <td>{c.dni}</td>
+                    <td>{c.telefono}</td>
                     <td>{c.correo}</td>
-                    <td>{formatDate(c.fechaSolicitud)}</td>
+                    <td>{c.asesorId}</td>
                     <td>{asesor ? asesor.nombre : ""}</td>
-                    <td>{c.tipoCita}</td>
+                    <td>{c.asesorTelefono || ""}</td>
+                    <td>{formatDate(c.fechaSolicitud)}</td>
                     <td>{formatDate(c.fechaAtencion)}</td>
+                    <td>{c.tipoCita}</td>
                     <td>{c.estado}</td>
                     <td>{c.descripcion}</td>
                   </tr>
