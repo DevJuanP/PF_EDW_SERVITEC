@@ -4,9 +4,105 @@
   background-color: #eee0d1; /* marrón elegante */
   padding: 40px;
   border-radius: 16px;
-  width: 400px;
+  /* permitir ocupar un porcentaje amplio del viewport */
+  width: 95%;
+  max-width: 1200px;
   margin: 60px auto;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* tabla de citas */
+.tabla-citas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.tabla-citas th,
+.tabla-citas td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  word-break: break-word;
+}
+
+/* columnas fijas más anchas */
+.tabla-citas th:nth-child(2),
+.tabla-citas td:nth-child(2),
+.tabla-citas th:nth-child(3),
+.tabla-citas td:nth-child(3),
+.tabla-citas th:nth-child(4),
+.tabla-citas td:nth-child(4),
+.tabla-citas th:nth-child(5),
+.tabla-citas td:nth-child(5) {
+  min-width: 140px;
+}
+
+/* columnas del reporte (asesor, tipo, fecha, estado, descripcion) más anchas */
+.tabla-citas th:nth-child(6),
+.tabla-citas td:nth-child(6),
+.tabla-citas th:nth-child(7),
+.tabla-citas td:nth-child(7),
+.tabla-citas th:nth-child(8),
+.tabla-citas td:nth-child(8),
+.tabla-citas th:nth-child(9),
+.tabla-citas td:nth-child(9),
+.tabla-citas th:nth-child(10),
+.tabla-citas td:nth-child(10) {
+  min-width: 160px;
+}
+
+.tabla-citas th {
+  background-color: #d4c4b8; /* tono claro en cabeceras */
+}
+
+.tabla-citas tr:nth-child(even) {
+  background-color: #f9f2ee;
+}
+
+/* área del reporte: scroll si la tabla es más ancha que el contenedor */
+.reporte {
+  display: flex;
+  flex-direction: column;
+}
+.reporte-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* tabla responsive: permitir que quepa y evitar rotación/encoger texto */
+.tabla-citas {
+  min-width: 0; /* dejar que el wrapper controle el scroll */
+  table-layout: auto;
+}
+
+.tabla-citas th,
+.tabla-citas td {
+  white-space: nowrap; /* evitar que el texto salte a vertical */
+  vertical-align: middle;
+  writing-mode: horizontal-tb !important;
+  transform: none !important;
+}
+
+/* botón de PDF en sección de citas */
+.btn-pdf {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-pdf:hover {
+  background-color: #003f8a;
 }
 
 .titulo-cc {
@@ -19,6 +115,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  /* limitar ancho del formulario para que no empuje al reporte */
+  max-width: 420px;
+  width: 100%;
 }
 
 .formulario-cc input,
