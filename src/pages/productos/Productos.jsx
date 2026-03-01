@@ -14,7 +14,7 @@ const Productos = () => {
   useEffect(() => {
       console.log("montando componente...");
     getProducts().then(data => {
-      console.log(data);
+      console.log("productos: ",data);
       let p = getByCategory(categoria, data)
       setProductos(p);
     })
